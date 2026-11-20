@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karm Bhayani | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+
+  <header class="navbar">
+    <a href="#home" class="brand">
+      <span class="brand-dot"></span>
+      <span>Karm<span class="accent">.dev</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">☰</button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="resume.pdf" download class="nav-btn">Resume</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. Home / About -->
+    <section id="home" class="hero reveal">
+      <div class="hero-content">
+        <span class="badge">Cybersecurity &amp; Web Enthusiast</span>
+        <h1>Hi, I'm <span class="gradient-text">Karm Bhayani</span></h1>
+        <p class="tagline">Building clean web apps, exploring offensive &amp; defensive security, and shipping practical projects.</p>
+        <p class="bio">
+          I am a computer science &amp; cybersecurity student passionate about web development, Linux systems,
+          version control with Git/GitHub, and hands-on problem solving. I enjoy turning ideas into clean,
+          functional digital experiences.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Explore Projects</a>
+          <a href="resume.pdf" download class="btn btn-secondary">Download Resume (PDF)</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="avatar-ring">
+          <img src="profile.png" alt="Karm Bhayani" class="avatar" onerror="this.src='https://via.placeholder.com/240x240/1e293b/38bdf8?text=KB'" />
+        </div>
+        <div class="status-pill">
+          <span class="pulse"></span>
+          <span>Open to Internships &amp; Collabs</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Skills -->
+    <section id="skills" class="section reveal">
+      <div class="section-header">
+        <span class="tag">Capabilities</span>
+        <h2>Technical &amp; Soft Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="glass-card">
+          <h3>Technical Skills</h3>
+
+          <div class="skill-item">
+            <div class="skill-meta"><span>HTML5 &amp; CSS3 (Responsive UI)</span><span>88%</span></div>
+            <div class="progress-bar"><div class="progress-fill" data-width="88%"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-meta"><span>JavaScript &amp; Web Apps</span><span>78%</span></div>
+            <div class="progress-bar"><div class="progress-fill" data-width="78%"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-meta"><span>Git &amp; GitHub Workflow</span><span>85%</span></div>
+            <div class="progress-bar"><div class="progress-fill" data-width="85%"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-meta"><span>Linux &amp; Cybersecurity Basics</span><span>82%</span></div>
+            <div class="progress-bar"><div class="progress-fill" data-width="82%"></div></div>
+          </div>
+        </div>
+
+        <div class="glass-card">
+          <h3>Soft Skills &amp; Toolkit</h3>
+          <div class="chip-group">
+            <span class="chip">Problem Solving</span>
+            <span class="chip">Analytical Thinking</span>
+            <span class="chip">Fast Learner</span>
+            <span class="chip">Team Collaboration</span>
+            <span class="chip">Time Management</span>
+            <span class="chip">Clear Communication</span>
+          </div>
+          <p class="muted-note">
+            Comfortable working in terminal environments, debugging issues step-by-step, and collaborating cleanly via Git repositories.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Projects -->
+    <section id="projects" class="section reveal">
+      <div class="section-header">
+        <span class="tag">Selected Work</span>
+        <h2>Featured Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="glass-card project-card">
+          <div class="project-top">
+            <span class="mono">01 / E-Commerce</span>
+            <a href="https://github.com/yourusername/Shiv-Kitchenware-WFS" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+          <h3>Shiv Kitchenware Storefront</h3>
+          <p>A product catalog and storefront concept structured around clean navigation, item discovery, and responsive layout.</p>
+          <div class="tech-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </article>
+
+        <article class="glass-card project-card">
+          <div class="project-top">
+            <span class="mono">02 / Security &amp; Linux</span>
+            <a href="https://github.com/yourusername/linux-security-notes" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+          <h3>Mayur Motors</h3>
+          <p>A sleek, responsive web platform for a luxury and exotic car repair & service studio servicing high-end vehicles like Lamborghini and Bentley, featuring structured service showcases, refined visual styling, and smooth mobile & desktop navigation.</p>
+          <div class="tech-tags">
+            <span>Linux</span><span>Bash</span><span>Markdown</span>
+          </div>
+        </article>
+
+        <article class="glass-card project-card">
+          <div class="project-top">
+            <span class="mono">03 / Web UI</span>
+            <a href="https://github.com/yourusername/YourName_PortfolioWebsite" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+          <h3>Plantopedia.in  Website</h3>
+          <p>A clean, responsive plant information & discovery web platform (Plantopedia.in) designed to showcase plant profiles, care guides, and structured categories with smooth navigation across desktop and mobile devices..</p>
+          <div class="tech-tags">
+            <span>HTML5</span><span>CSS3</span><span>GitHub Pages</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 4. Contact -->
+    <section id="contact" class="section reveal">
+      <div class="section-header">
+        <span class="tag">Get In Touch</span>
+        <h2>Contact Me</h2>
+      </div>
+
+      <div class="contact-grid">
+        <form class="glass-card contact-form" id="contactForm">
+          <label>
+            <span>Your Name</span>
+            <input type="text" id="nameInput" placeholder="Enter your name" required />
+          </label>
+          <label>
+            <span>Your Email</span>
+            <input type="email" id="emailInput" placeholder="you@example.com" required />
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea id="messageInput" rows="4" placeholder="Write your message..." required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+
+        <div class="glass-card contact-links">
+          <h3>Direct &amp; Social Links</h3>
+          <p class="muted-note">Reach out directly or check out my profiles and code repositories.</p>
+          <div class="social-list">
+            <a href="mailto:karm@example.com" class="social-item">
+              <span>📧 Email</span>
+              <span>karm@example.com ↗</span>
+            </a>
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="social-item">
+              <span>💻 GitHub</span>
+              <span>@yourusername ↗</span>
+            </a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener" class="social-item">
+              <span>🔗 LinkedIn</span>
+              <span>Connect ↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Karm Bhayani. Built with HTML, CSS &amp; JS • Hosted on GitHub Pages.</p>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
